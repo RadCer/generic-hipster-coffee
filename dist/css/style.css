@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .main__container {
   width: 100%;
   display: flex;
@@ -7,7 +6,7 @@
   justify-content: center; }
 
 .main--section {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,10 +17,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   background-color: #ced4da;
   color: #f8f9fa;
-  height: 100px; }
+  height: 130px; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%; }
+  .logo img {
+    width: 100px;
+    height: 100px; }
 
 .nav--bar {
   display: flex;
@@ -37,25 +45,22 @@ footer {
   align-items: center;
   justify-content: space-around;
   background-color: #343a40;
-  width: 80%;
-  height: 200px; }
+  width: 100%;
+  height: 300px; }
   footer .nav--bar--f {
     display: flex;
     justify-content: space-around;
     width: 35%; }
     footer .nav--bar--f a {
-      text-decoration: none;
-      color: blue; }
+      text-decoration: underline;
+      color: blue;
+      font-size: 1.2rem; }
   footer .social {
     color: #f8f9fa; }
     footer .social a {
       color: blue;
-      text-decoration: none; }
-=======
-.main--section {
-  margin: 120px;
-  padding: 0;
-  box-sizing: border-box; }
+      text-decoration: underline;
+      font-size: 1.2rem; }
 
 .title {
   display: block;
@@ -69,6 +74,5 @@ footer {
 
 .map {
   display: block; }
->>>>>>> fd9a20572f9c520798cbb7b06577b6629f829b22
 
 /*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@ $background-footer: #343a40;
 }
 
 .main--section {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,21 @@ $background-footer: #343a40;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   background-color: $header-background;
   color: $header-letter-gray;
-  height: 100px;
+  height: 130px;
 }
-
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
 .nav--bar {
   display: flex;
   justify-content: space-around;
@@ -44,22 +53,24 @@ footer {
   align-items: center;
   justify-content: space-around;
   background-color: $background-footer;
-  width: 80%;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   .nav--bar--f {
     display: flex;
     justify-content: space-around;
     width: 35%;
     a {
-      text-decoration: none;
+      text-decoration: underline;
       color: blue;
+      font-size: 1.2rem;
     }
   }
   .social {
     color: $header-letter-gray;
     a {
       color: blue;
-      text-decoration: none;
+      text-decoration: underline;
+      font-size: 1.2rem;
     }
   }
 }
