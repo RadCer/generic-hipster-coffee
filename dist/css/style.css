@@ -65,35 +65,36 @@ footer {
 .title {
   display: block;
   text-align: left;
-  width: 100%;
+  width: 80%;
   height: 100%; }
 
 .picture {
   display: block;
-  width: 100%; }
+  width: 80%; }
   .picture img {
     width: 100%; }
 
 .openinghours {
   display: flex;
-  width: 100%;
+  width: 80%;
   font-size: 16px; }
 
 .hours {
-  width: 100%; }
+  width: 80%; }
 
 .table {
-  width: 100%; }
+  width: 80%; }
 
 .adress {
-  width: 100%; }
+  width: 80%; }
 
 .map {
   display: block;
-  width: 100%; }
+  width: 80%; }
   .map img {
     width: 100%; }
 
+<<<<<<< HEAD
 .main--section--third {
   display: flex;
   flex-direction: column;
@@ -122,5 +123,29 @@ footer {
     padding-left: 5px; }
   .coffie p {
     padding-left: 5px; }
+=======
+/*html2 -------------- Menu*/
+h2 {
+  display: block;
+  margin-left: 38px; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin: 10px; }
+
+ul {
+  list-style: none; }
+
+.nonalc {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between; }
+
+.coffee {
+  width: 100%;
+  display: flex; }
+>>>>>>> 410fe342f1e73d56c05ffe78fb9efb297f7f3385
 
 /*# sourceMappingURL=style.css.map */
