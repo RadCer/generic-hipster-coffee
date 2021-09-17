@@ -1,7 +1,41 @@
-<<<<<<< HEAD
-body {
-  color: red;
-}
-=======
+$header-letter-gray: #f8f9fa;
+$header-background: #ced4da;
+$background-footer: #343a40;
 
->>>>>>> radek
+.main__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main--section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  background-color: $header-background;
+  color: $header-letter-gray;
+  a {
+    text-decoration: none;
+    color: $header-letter-gray;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $background-footer;
+  width: 80%;
+}
