@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main__container {
   width: 100%;
   display: flex;
@@ -50,5 +51,24 @@ footer {
     footer .social a {
       color: blue;
       text-decoration: none; }
+=======
+.main--section {
+  margin: 120px;
+  padding: 0;
+  box-sizing: border-box; }
+
+.title {
+  display: block;
+  text-align: left; }
+
+.picture {
+  display: block; }
+
+.openinghours {
+  display: block; }
+
+.map {
+  display: block; }
+>>>>>>> fd9a20572f9c520798cbb7b06577b6629f829b22
 
 /*# sourceMappingURL=style.css.map */
