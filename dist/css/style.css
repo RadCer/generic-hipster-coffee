@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .main__container {
   width: 100%;
   display: flex;
@@ -51,24 +50,37 @@ footer {
     footer .social a {
       color: blue;
       text-decoration: none; }
-=======
-.main--section {
-  margin: 120px;
-  padding: 0;
-  box-sizing: border-box; }
 
 .title {
   display: block;
-  text-align: left; }
+  text-align: left;
+  width: 100%;
+  height: 100%; }
 
 .picture {
-  display: block; }
+  display: block;
+  width: 100%; }
+  .picture img {
+    width: 100%; }
 
 .openinghours {
-  display: block; }
+  display: flex;
+  width: 100%;
+  font-size: 16px; }
+
+.hours {
+  width: 100%; }
+
+.table {
+  width: 100%; }
+
+.adress {
+  width: 100%; }
 
 .map {
-  display: block; }
->>>>>>> fd9a20572f9c520798cbb7b06577b6629f829b22
+  display: block;
+  width: 100%; }
+  .map img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
