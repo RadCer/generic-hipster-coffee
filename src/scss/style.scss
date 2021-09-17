@@ -181,28 +181,22 @@ HEAD .main--section--third {
   //@debug {
 }
 
-.main--section {
-  h1 {
-    color: red;
-  }
+.main--section .about_us {
+  width: 80%;
+  text-align: left;
+  float: left;
+}
 
-  .about_us {
-    width: 80%;
-    text-align: left;
-    float: left;
-  }
+.about_us p {
+  text-align: left;
+  margin: 20px;
+}
 
-  .about_us p {
-    text-align: left;
-    margin: 20px;
-  }
+.about_us_picture {
+  display: block;
+  width: 80%;
+}
 
-  .about_us_picture {
-    display: block;
-    width: 80%;
-  }
-
-  .form {
-    display: block;
-  }
+.form {
+  display: block;
 }
