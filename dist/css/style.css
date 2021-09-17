@@ -94,7 +94,6 @@ footer {
   .map img {
     width: 100%; }
 
-<<<<<<< HEAD
 .main--section--third {
   display: flex;
   flex-direction: column;
@@ -123,7 +122,7 @@ footer {
     padding-left: 5px; }
   .coffie p {
     padding-left: 5px; }
-=======
+
 /*html2 -------------- Menu*/
 h2 {
   display: block;
@@ -132,20 +131,110 @@ h2 {
 .menu {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-  margin: 10px; }
+  align-content: center;
+  margin: 10px;
+  width: 80%; }
 
 ul {
   list-style: none; }
 
 .nonalc {
   display: flex;
+  flex-direction: row;
   flex-direction: column;
   align-content: space-between; }
 
-.coffee {
+.no-alc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.coffee__info {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.empty {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  color: white; }
+
+.img_machine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+  .img_machine img {
+    width: 100%; }
+
+.middle {
   width: 100%;
-  display: flex; }
->>>>>>> 410fe342f1e73d56c05ffe78fb9efb297f7f3385
+  display: flex;
+  flex-direction: column;
+  flex-direction: flex-start;
+  align-items: flex-start; }
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ced4da;
+    color: #f8f9fa;
+    height: 300px; }
+  .nav--bar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  footer {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .nav--bar--f {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+  .social {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .social h2 {
+      font-size: 0.8rem; }
+  .coffie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%; }
+  .coffies-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%; }
+  .main--section--third {
+    width: 100%; }
+  .main--section {
+    flex-direction: column;
+    align-items: center; }
+  .coffies {
+    width: 100%;
+    flex-direction: column; }
+  .coffee__info {
+    flex-direction: column; }
+  .no-alc {
+    flex-direction: column; }
+  .h2main {
+    margin: 0; }
+  .openinghours {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
